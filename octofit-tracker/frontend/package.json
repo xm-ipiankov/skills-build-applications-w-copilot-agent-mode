@@ -1,27 +1,39 @@
 {
-  "name": "octofit-tracker",
-  "version": "1.0.0",
-  "description": "A fitness tracking application for users to log activities, manage teams, and receive personalized workout suggestions.",
-  "main": "src/main.jsx",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
+  "name": "octofit-tracker-frontend",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^7.14.2",
     "vite": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.0.0"
-  },
-  "keywords": [
-    "fitness",
-    "tracker",
-    "react",
-    "vite"
-  ],
-  "author": "Your Name",
-  "license": "MIT"
+  }
 }
